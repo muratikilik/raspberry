@@ -1,5 +1,7 @@
-// 2015 Murat İkilik <muratikilik@yandex.com.tr>
-// Raspberry Pi with "Traffic Lamp" project
+## 2015 Murat Ikilik <muratikilik@yandex.com.tr>
+## Raspberry Pi with "Traffic Lamp" project
+
+#-*- coding: utf-8 -*-
 
 import RPi.GPIO as GPIO
 import time
