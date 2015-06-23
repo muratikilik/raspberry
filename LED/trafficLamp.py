@@ -23,9 +23,9 @@ GPIO.output(redLed, 1)
 GPIO.output(yellowLed, 1)
 GPIO.output(greenLed, 1)
 
-b = int(raw_input("Dongu sayisini girin: "))
+number2 = int(raw_input("Dongu sayisini girin: "))
 
-while a<b:
+while number1<number2:
   GPIO.output(redLed, GPIO.HIGH)
   GPIO.output(yellowLed, GPIO.LOW)
   GPIO.output(greenLed, GPIO.LOW)
@@ -41,6 +41,6 @@ while a<b:
   GPIO.output(greenLed, GPIO.HIGH)
   time.sleep(3)
   
-  a += 1
+  number1 += 1
   
 GPIO.cleanup()
